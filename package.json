@@ -1,30 +1,30 @@
 {
   "name": "first",
-  "version": "0.0.1",
-  "keywords": [],
-  "license": "ISC",
-  "author": "",
-  "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
-    "start": "npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4"
-  },
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "directories": {
     "doc": "doc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "npm": "^6.14.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/drilonhalili/myFirstCodeAcademyProject.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/drilonhalili/myFirstCodeAcademyProject/issues"
   },
-  "homepage": "https://github.com/drilonhalili/myFirstCodeAcademyProject#readme",
-  "description": ""
+  "homepage": "https://github.com/drilonhalili/myFirstCodeAcademyProject#readme"
 }
