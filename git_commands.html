@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Git commands</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="apple-touch-icon" href="icon.png" />
+
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <meta name="theme-color" content="#fafafa" />
+</head>
+
+<body style="padding: 50px;">
+  <header style="text-align: center;">
+    <h1>Git Commands</h1>
+    <a href="/index.html">Go back to main page!</a>
+    <hr style="border-bottom: gray 2px solid">
+  </header>
+
+  <main>
+    <h2>git config</h2>
+    <p>Usage: git config –global user.name “[name]”</p>
+    <p>Usage: git config –global user.email “[email address]”</p>
+    <span>This command sets the author name and email address respectively to be used with your commits.</span>
+    <div><img src="/img/git/git_config.png" alt="Git config"></div>
+    <hr style="border-bottom: gray 2px solid">
+
+    <h2>git init</h2>
+    <p>Usage: git init [repository name]</p>
+    <span>This command is used to start a new repository.</span>
+    <div><img src="/img/git/git_init.png" alt="Git init"></div>
+    <hr style="border-bottom: gray 2px solid">
+
+    <h2>git clone</h2>
+    <p>Usage: git clone [url] </p>
+    <span>This command is used to obtain a repository from an existing URL.</span>
+    <div><img src="/img/git/git_clone.png" alt="Git clone"></div>
+    <hr style="border-bottom: gray 2px solid">
+
+    <h2>git add</h2>
+    <p>Usage: git add [file] </p>
+    <span>This command adds a file to the staging area.</span>
+    <div><img src="/img/git/git_add.png" alt="Git add"></div>
+    <p>Usage: git add * </p>
+    <span>This command adds one or more to the staging area.</span>
+    <div><img src="/img/git/git_add_1.png" alt="Git add 1"></div>
+    <hr style="border-bottom: gray 2px solid">
+
+    <h2>git commit</h2>
+    <p>Usage: git commit -m “[ Type in the commit message]” </p>
+    <span>This command records or snapshots the file permanently in the version history.</span>
+    <div><img src="/img/git/git_commit.png" alt="Git commit"></div>
+    <p>Usage: git commit -a </p>
+    <span>This command commits any files you’ve added with the git add command and also commits any files you’ve changed
+      since then.</span>
+    <div><img src="/img/git/git_commit_1.png" alt="Git commit 1"></div>
+    <hr style="border-bottom: gray 2px solid">
+
+    <h2>git diff</h2>
+    <p>Usage: git diff </p>
+    <span>This command shows the file differences which are not yet staged.</span>
+    <div><img src="/img/git/git_diff.png" alt="Git diff"></div>
+    <p>Usage: git diff –staged </p>
+    <span>This command shows the differences between the files in the staging area and the latest version
+      present.</span>
+    <div><img src="/img/git/git_diff_1.png" alt="Git diff 1"></div>
+    <p>Usage: git diff [first branch] [second branch] </p>
+    <span>This command shows the differences between the two branches mentioned.</span>
+    <div><img src="/img/git/git_diff_2.png" alt="Git diff 2"></div>
+    <hr style="border-bottom: gray 2px solid">
+
+    <h2>git reset</h2>
+    <p>Usage: git reset [file] </p>
+    <span>This command unstages the file, but it preserves the file contents.</span>
+    <div><img src="/img/git/git_reset.png" alt="Git reset"></div>
+    <p>Usage: git reset [commit] </p>
+    <span>This command undoes all the commits after the specified commit and preserves the changes locally.</span>
+    <div><img src="/img/git/git_reset_1.png" alt="Git reset 1"></div>
+    <p>Usage: git reset –hard [commit] This command discards all history and goes back to the specified commit.</p>
+    <div><img src="/img/git/git_reset_2.png" alt="Git reset 2"></div>
+    <hr style="border-bottom: gray 2px solid">
+
+
+
+  </main>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments);
+    };
+    ga.q = [];
+    ga.l = +new Date();
+    ga("create", "UA-XXXXX-Y", "auto");
+    ga("set", "anonymizeIp", true);
+    ga("set", "transport", "beacon");
+    ga("send", "pageview");
+
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
